@@ -1,1 +1,64 @@
 /* Use Selectors and attributes for the HTML design */
+
+.gray-box {
+  background-color: lightgray;
+  width: 800px;
+  height: 1500px;
+  margin: auto;
+}
+.white-box {
+  background-color: white;
+  width: 600px;
+  height: 1400px;
+  margin: auto;
+  padding: 20px;
+}
+hr {
+  width: 200px;
+  height: 11px;
+  background-color: black;
+  float: left;
+}
+h1.white-boxs {
+  text-align: left;
+}
+
+.white-box .prof {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.white-box .p1 {
+  font-family: Helvetica, sans-serif;
+}
+
+#line-1 {
+  width: 600px;
+  height: 2px;
+}
+#line-2 {
+  width: 600px;
+  height: 2px;
+}
+
+#line-3 {
+  width: 600px;
+  height: 2px;
+}
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-spacing: 200px;
+  margin-left: 300px;
+}
+::placeholder {
+  color: gray;
+}
+button {
+  width: 100px;
+  height: 30px;
+  float: right;
+}
+p.white-box {
+  font-family: Helvetica, sans-serif;
+}
