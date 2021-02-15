@@ -17,52 +17,106 @@
             <p class="p1"><strong> Qui puoi visualizzare e modificare i dettagli del tuo indirizzo.</strong></p>
          
             <hr id="line-1">
-            <p class="d-p">Dati Personali</p><br>
-           
-              <p>Titolo <input type="text" placeholder="Dr. "></p>
-              <p>Nome <input type="text" placeholder="Fithawi"></p>
-              <p>Cognome <input type="text" placeholder="Ghide"></p>
-              <br>
-            <div class="gen-b">
-              <p>
-                <label for="">Gender</label>
-                <button>M</button>
-                <button>F</button>
-                </p>
-            </div><br>
-              <div class="b-l">
-              <p> <label for=""> Lingua</label>
-               <button>IT</button>
-               <button>EN</button>
-               <button>TE</button>
-              </div>
-              </p>
-              <hr id="line-2"> 
-              <p class="c-p">Detagli Del Contato</p><br>
-           
-              <p>Telefono <input type="text" placeholder=" "></p>
-              <p>Mobile <input type="text" placeholder="optional"></p>
-              <p>Numero Principale <input type="text" placeholder="optional"></p>
-              <p>Fax <input type="text" placeholder="optional"></p>
-              <p>Mail1<input type="text"></p>
-              <p>Mail2 <input type="text" placeholder=""> </p>
+            <form>
+                <div>
+                    <h3>Dati Personali</h3><br>
+                    <label for="title">Titolo</label>
+                    <input type="text" placeholder="Dr. " required><br><br>
+                    <label for="name">Nome</label>
+                    <input type="text" placeholder="Fithawi" required><br><br>
+                    <label for="congome">Cognome</label>
+                    <input type="text" placeholder="Ghide" required>
+                    <br>
+                    <br>
+                  <div class="gen-b">
+                    
+                      <label for="">Gender</label>
+                      <button>M</button>
+                      <button>F</button>
+                      <br>
+                 </div>
+                 <br>
+                         
+                          <section>
+                          <div class="b-l">
+                              <p> <label for=""> Lingua</label>
+                              <button>IT</button>
+                              <button>EN</button>
+                              <button>TE</button>
+                          </div>
+                        </section>
+                          <br>
+                 </div>
+                </form>
 
-              <p>
-                <hr id="line-3">
-                <div class="a-zie">
-                  <p class="i-p">Dati Di Indirizzo</p><br>
-                  <p>Azienda <input type="text" placeholder=" "></p>
-                  <p>Ulteriori/ Azienda <input type="text" placeholder="optional"></p>
-                  <p>Homepage <input type="text" placeholder="optional"></p>
-                  <p>Indirizzo <input type="text" placeholder="Munich"></p>
-                  <p>P.O:Box <input type="text" name="" id="" placeholder="optional"> </p>  
-                  <p>Posto</p>
-                  <p>Cantone</p>
-                  <p> <br>
-                    <button id="b-save">Salva</button>
-                </div>    
-              </div>
-             
-    </div>
-  </body>
-</html>
+              <hr id="line-2"> 
+
+              <form>
+                  <div>
+                      <h3>Detagli Del Contatto</h3><br>
+                      <label for="tel">Telofono</label>
+                      <input type="number" placeholder="" required>
+                      <br>
+                      <br>
+                      <label for="mob"> Mobile</label>
+                      <input type="number" placeholder="optional">
+                      <br>
+                      <br>
+                      <label for="num-pre">Numero Principale</label>
+                      <input type="text" placeholder="optional">
+                      <br>
+                      <br>
+                      <label for="fax">Fax</label> 
+                      <input type="text" placeholder="optional">
+                      <br>
+                      <br>
+                      <label for="mail">Mail1</label> 
+                      <input type="email" placeholder="" required>
+                      <br>
+                      <br>
+                      <label for="mail2">Mail2</label>  
+                      <input type="email" placeholder=""> </p>
+                  </div>
+              </form>
+                  
+                    <hr id="line-3">
+                  <form >
+                        <div class="a-zie">
+                            <h3>Dati Di Indirizzo</h3><br>
+                            <label for="aze"> Azienda</label> 
+                            <input type="text" placeholder=" ">
+                            <br>
+                            <br>
+                            <label for="">Ulteriori/Azienda</label>
+                            <input type="text" placeholder="optional">
+                            <br>
+                            <br>
+                            <label for="hpage">Homepage</label> 
+                            <input type="text" placeholder="optional">
+                            <br>
+                            <br>
+                            <label for="ind">Indirizzo</label>
+                            <input type="text" placeholder="Munich" required>
+                            <br>
+                            <br>
+                            <label for="">P.O:Box</label>
+                            <input type="text" id="" placeholder="optional">
+                            <br>
+                            <br>
+                            <label for="">Posto</label> 
+                            <input type="text" placeholder="25123 Brescia">
+                            <br>
+                            <br>
+                            <label for="can">Cantone</label>
+                            <input type="text" placeholder="">
+                            
+                            <br>
+                            <br>
+                            <button id="b-save">Salva</button>
+
+                        </div>  
+                    </form>  
+                  </div>
+                </div>
+              </body>
+            </html>
